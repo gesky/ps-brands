@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://pedrospadotto.me/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://pedrospadotto.me/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://pedrospadotto.me/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/sobre/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://pedrospadotto.me/sobre/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://pedrospadotto.me/sobre/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/contato/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://pedrospadotto.me/contato/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://pedrospadotto.me/contato/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://pedrospadotto.me/projetos/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://pedrospadotto.me/projetos/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/social-content/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://pedrospadotto.me/social-content/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://pedrospadotto.me/social-content/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/yvy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/ida/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/rusty/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/pitaya/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/conforto-marca/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/duplex-by-guestier/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/elareis/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/fuelsly/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/sterilow/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/medcontrol/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/performa-house/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/reserva-conforto/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pedrospadotto.me/projetos/de-martino-contabilidade/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
