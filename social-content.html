@@ -109,13 +109,13 @@ function render() {
 
   document.getElementById('proj-main').innerHTML = `
     <div class="container">
-      <div class="social-proj-header">
+      <div class="social-proj-header" data-reveal>
         <h1 class="social-proj-title">${proj.title}</h1>
         <p class="social-proj-desc">${proj.desc}</p>
       </div>
-      <div class="social-proj-grid">${imgsHtml}</div>
+      <div class="social-proj-grid" data-reveal-group>${imgsHtml}</div>
     </div>
-    <section class="project-cta container">
+    <section class="project-cta container" data-reveal>
       <p class="project-cta-title" data-i18n="cta.title">Fico feliz que meu trabalho tenha chamado sua atenção!</p>
       <p class="project-cta-sub" data-i18n="cta.sub1">Sinta-se à vontade para entrar em contato pelo WhatsApp abaixo.</p>
       <p class="project-cta-sub">E se ainda tiver alguma dúvida, não hesite em falar comigo.</p>
@@ -124,6 +124,7 @@ function render() {
 }
 
 render();
+if (typeof window._scrollRevealInit === "function") window._scrollRevealInit();
 </script>
 
 <script>
@@ -135,5 +136,6 @@ render();
   });
 </script>
 <script src="assets/js/i18n.js"></script>
+<script src="assets/js/scroll-reveal.js"></script>
 </body>
 </html>

@@ -184,7 +184,7 @@ function render() {
 
   document.getElementById('proj-main').innerHTML = `
     <div class="container">
-      <div class="proj-header">
+      <div class="proj-header" data-reveal>
         <div class="proj-left">
           <h1 class="proj-title">${proj.title}</h1>
           <dl class="proj-meta">
@@ -196,8 +196,8 @@ function render() {
         <div class="proj-right">${parasHtml}</div>
       </div>
     </div>
-    <div class="proj-images">${imgsHtml}</div>
-    <section class="project-cta container">
+    <div class="proj-images" data-reveal-group>${imgsHtml}</div>
+    <section class="project-cta container" data-reveal>
       <p class="project-cta-title" data-i18n="cta.title">Fico feliz que meu trabalho tenha chamado sua atenção!</p>
       <p class="project-cta-sub" data-i18n="cta.sub1">Sinta-se à vontade para entrar em contato pelo WhatsApp abaixo.</p>
       <p class="project-cta-sub">E se ainda tiver alguma dúvida, não hesite em falar comigo.</p>
@@ -206,6 +206,8 @@ function render() {
 }
 
 render();
+// re-init scroll-reveal após render dinâmico
+if (typeof window._scrollRevealInit === "function") window._scrollRevealInit();
 </script>
 
 <script>
@@ -217,5 +219,6 @@ render();
   });
 </script>
 <script src="assets/js/i18n.js"></script>
+<script src="assets/js/scroll-reveal.js"></script>
 </body>
 </html>

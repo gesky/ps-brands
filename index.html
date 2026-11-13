@@ -60,18 +60,18 @@
 </nav>
 <main>
 <!-- ── Hero ── -->
-<section class="hero container">
+<section class="hero container" data-reveal>
 <h1 class="hero-title" data-i18n="hero.title">Simplicidade que ressoa, design que perdura.</h1>
 <p class="hero-sub">Com anos de experiência, venho elevando o posicionamento e a presença dos meus clientes por meio de sistemas de design que os tornam únicos e memoráveis.</p>
 <a class="btn-outline" href="https://wa.me/5514991732262" target="_blank" rel="noopener" data-i18n="hero.cta">Vamos conversar!</a>
 </section>
 <!-- ── Brand Cases ── -->
 <section aria-labelledby="cases-heading" class="container">
-<div class="section-title-row">
+<div class="section-title-row" data-reveal>
 <h2 class="section-title" id="cases-heading" data-i18n="section.brand_cases">Brand Cases</h2>
 <a class="btn-ver-todos" href="projetos/index.html">Veja todos os projetos</a>
 </div>
-<div class="projects-grid">
+<div class="projects-grid" data-reveal-group>
 <a class="project-card" href="identidade-visual.html?p=yvy">
 <img alt="YVY — Identidade Visual" loading="lazy" src="/imagens/identidade-visual/1.YVY/YVY-3.webp"/>
 <div class="project-card-info">
@@ -118,11 +118,11 @@
 </section>
 <!-- ── Social Content ── -->
 <section aria-labelledby="social-heading" class="container">
-<div class="section-title-row">
+<div class="section-title-row" data-reveal>
 <h2 class="section-title" id="social-heading" data-i18n="section.social_content">Social Content</h2>
 <a class="btn-ver-todos" href="social-content/index.html">Veja todos os projetos</a>
 </div>
-<div class="social-grid">
+<div class="social-grid" data-reveal-group>
 <a class="social-card" href="social-content.html?p=de-martino-contabilidade">
 <img alt="De Martino — Social Content" loading="lazy" src="/imagens/social-content/2.%20de%20martino/de-martino-1.webp"/>
 <div class="social-card-info">
@@ -159,7 +159,7 @@
 </div>
 </section>
 <!-- ── About strip ── -->
-<section class="container about-strip">
+<section class="container about-strip" data-reveal>
 <div class="about-photo">
 <img alt="Pedro Spadotto" loading="lazy" src="https://pedrospadotto.me/wp-content/uploads/2026/01/imagem-de-lado-perfil-ajustada-pb-1-1024x741.png"/>
 </div>
@@ -169,12 +169,12 @@
 </div>
 </section>
 <!-- ── Skills ── -->
-<section class="container skills-section">
+<section class="container skills-section" data-reveal>
 <div class="skills-layout">
 <div>
 <p class="skills-label" data-i18n="skills.label">My Skills</p>
 </div>
-<div class="skills-grid">
+<div class="skills-grid" data-reveal-group>
 <div class="skill-item">
 <h3 data-i18n="skill1.h3">Logo design</h3>
 <p>O processo de criação de um logotipo é minucioso e centrado na sua identidade única. Cada elemento é cuidadosamente pensado para refletir a essência da sua marca e garantir uma presença forte e sólida. Do conceito à finalização, trabalhamos para criar um símbolo que não apenas represente o seu negócio, mas também transmita confiança e gere reconhecimento imediato.</p>
@@ -220,5 +220,6 @@
       toggle.setAttribute('aria-expanded', open);
     });
   </script>
-<script src="assets/js/i18n.js"></script></body>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/scroll-reveal.js"></script></body>
 </html>
